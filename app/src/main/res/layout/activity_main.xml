@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="100dp"
+        android:background="@drawable/border3"
+        android:gravity="center"
+        android:text="សារលើកទឹកចិត្ត"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="#FFFF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="630dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="105dp"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="ព្យាយាម គង់បានសម្រេច"
+                android:textColor="#FFC12F01"
+                android:background="@drawable/border10"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="តស៊ូសម្រាប់អនាគតរបស់អ្នក"
+                android:textColor="#A1A1A1"
+                android:background="@drawable/border11"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="ជីវិត ជាដំណើរផ្សងព្រេង"
+                android:textColor="#FFFA4280"
+                android:background="@drawable/borderbar"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="មនុស្សគ្រប់គ្នា តែងតែមានកំហុស"
+                android:textColor="#FF052AFA"
+                android:background="@drawable/broder1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="ជោគវាសនារបស់អ្នក ពឹងផ្អែកលើការសម្រេច ចិត្តរបស់អ្នក"
+                android:textColor="#A800C5"
+                android:background="@drawable/border4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="បច្ចុប្បន្នកាលជា រឿងដែលត្រូវប្រឈមមុខ និង ដោះស្រាយ"
+                android:textColor="#00D309"
+                android:background="@drawable/border5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="អតីតកាលជា រឿងដែរត្រូវចង់ចាំ និង យកធ្វើជាគំរូរ"
+                android:textColor="#85FF8A"
+                android:background="@drawable/border6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="អនាគតកាលជា រឿងដែរត្រូវតែជួបប្រទះ ជៀសវាងពុំបាន ត្រូវហ៊ានទទួលស្គាល់"
+                android:textColor="#00FF0A"
+                android:background="@drawable/border7"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="សុភមង្គលមួយអាចបំបែកទុក្ខព្រួយឲ្យខ្ចាត់ខ្ចាយរាប់ពាន់បំណែក"
+                android:textColor="#00E2FF"
+                android:background="@drawable/border8"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="អ្នកមិនអាចហាមសត្វស្លាបមិនឲ្យហើរពីលើក្បាលបាននោះទេ ប៉ុន្តែអ្នកអាចហាមវាមិនឲ្យធ្វើសំបុកលើសក់របស់អ្នក"
+                android:textColor="#DA00FF"
+                android:background="@drawable/border9"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="មនុស្សលះបង់មនសិការរបស់ខ្លួនដើម្បីមហិច្ឆតា សុខចិត្តដុតផ្ទះយកផេះមួយក្ដាប់"
+                android:textColor="#FFC12F01"
+                android:background="@drawable/border10"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text=" បើអ្នកជាមនុស្សរារែកមិនអាចធ្វើអ្វីបាន អ្នកមិនគួររំខានដល់អ្នកដទៃដែលកំពុងផុសផុលឡើយ"
+                android:textColor="#FFFA4280"
+                android:background="@drawable/borderbar"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="ទោះបីដើរយឺតប៉ុណ្ណា វាមិនសំខាន់នោះទេ សំខាន់អ្នកមិនព្រមឈប់ដើរ"
+                android:textColor="#FFC12F01"
+                android:background="@drawable/border2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="មនុស្សគ្រប់គ្នាច្រើនឃើញពីអំពើហិង្សា ប៉ុន្តែមានមនុស្សតិចណាស់ដែលបានឃើញពីមូលហេតុនៃហិង្សានោះ"
+                android:textColor="#7DFF82"
+                android:background="@drawable/border6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="ទោះបីខ្យល់ព្យុះបោកខ្លាំង តែបើអណ្ដូងទឹកជ្រៅ នោះវាមិនអាចរង្គើឡើយ"
+                android:textColor="#0DCC00"
+                android:background="@drawable/border7"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="ភាពតានតឹងប្រាប់ពីអ្វីដែលអ្នកគិត រីឯការសម្រាកលំហែប្រាប់ថា អ្នកជានរណា"
+                android:textColor="#0CB112"
+                android:background="@drawable/border7"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="ភាពរឹងមាំនិងការរីកចម្រើនទៅមុខអាចកើតឡើងបានដោយឆ្លងកាត់ការប្រឹងប្រែងនិងការជម្នះនូវឧបសគ្គឥតឈប់ឈរតែប៉ុណ្ណោះ"
+                android:textColor="#979797"
+                android:background="@drawable/border11"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:text="ភាពស្ងប់ស្ងៀមគឺជាប្រភពនៃសេចក្ដីរឹងមាំដ៏ខ្លាំងក្លា"
+                android:textColor="#FF052AFA"
+                android:background="@drawable/broder1"/>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
